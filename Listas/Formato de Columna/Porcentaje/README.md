@@ -1,10 +1,10 @@
 <h1>Formato de Columna</h1>
 <h2>Porcentaje</h2>
 
-<table border="1">
+<table>
     <thead>
         <tr>
-            <td>Name</td>
+            <td>Nombre</td>
             <td>Tipo</td>
         </tr>
     </thead>
@@ -23,3 +23,5 @@
         </tr>
     </body>
 </table>
+
+<img src="Porcentaje.png" />
