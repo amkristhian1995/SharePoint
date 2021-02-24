@@ -1,6 +1,8 @@
 <h1>Formato de Columna</h1>
 <h2>Porcentaje</h2>
 
+<img src="Porcentaje.png" />
+
 <table>
     <thead>
         <tr>
@@ -23,5 +25,3 @@
         </tr>
     </body>
 </table>
-
-<img src="Porcentaje.png" />
