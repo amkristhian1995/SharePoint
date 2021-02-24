@@ -1,0 +1,52 @@
+{
+    "elmType": "div",
+    "style": {
+        "align-items": "center",
+        "box-sizing": "border-box",
+        "display": "flex",
+        "flex-wrap": "wrap",
+        "justify-content": "center",
+        "padding": "5px 2.5px"
+    },
+    "children": [
+        {
+            "elmType": "div",
+            "style": {
+                "align-items": "center",
+                "border": "='1px solid '+if([$Porcentaje] <= 40 , 'rgba(200, 50, 50, .75)', if([$Porcentaje] <= 80, 'rgba(200, 200, 0, .75)', 'rgba(50, 200, 50, .75)'))",
+                "border-radius": "10px",
+                "justify-content": "center",
+                "display": "flex",
+                "height": "20px",
+                "overflow": "hidden",
+                "position": "relative",
+                "width": "100px"
+            },
+            "children": [
+                {
+                    "elmType": "span",
+                    "style": {
+                        "background-color": "=if([$Porcentaje] <= 40 , 'rgba(200, 50, 50, .25)', if([$Porcentaje] <= 80, 'rgba(200, 200, 0, .25)', 'rgba(50, 200, 50, .25)'))",
+                        "left": "0",
+                        "position": "absolute",
+                        "height": "20px",
+                        "width": "=[$Porcentaje]+'%'"
+                    }
+                },
+                {
+                    "elmType": "span",
+                    "txtContent": "=[$Porcentaje]+'%'",
+                    "style": {
+                        "align-items": "center",
+                        "color": "#555",
+                        "display": "flex",
+                        "height": "20px",
+                        "justify-content": "center",
+                        "position": "absolute",
+                        "width": "100%"
+                    }
+                }
+            ]
+        }
+    ]
+}
