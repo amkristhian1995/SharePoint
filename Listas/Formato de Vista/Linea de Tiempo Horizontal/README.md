@@ -1,5 +1,5 @@
-<h1>Formato de Columna</h1>
-<h2>Semaforo</h2>
+<h1>Formato de Vista</h1>
+<h2>Linea de Tiempo Horizontal</h2>
 
 <img src="img.png" />
 
@@ -16,12 +16,8 @@
             <td>Una linea de texto</td>
         </tr>
         <tr>
-            <td>Estado</td>
-            <td>Elección</td>
-        </tr>
-        <tr>
-            <td>Simbolo</td>
-            <td>Una linea de texto</td>
+            <td>Descripcion</td>
+            <td>Varias lineas de tiempo</td>
         </tr>
     </body>
 </table>

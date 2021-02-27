@@ -13,11 +13,11 @@
     <tbody>
         <tr>
             <td>Title</td>
-            <td>Linea de texto</td>
+            <td>Una linea de texto</td>
         </tr>
         <tr>
             <td>Descripcion</td>
-            <td>Varias de texto</td>
+            <td>Varias lineas de texto</td>
         </tr>
         <tr>
             <td>Porcentaje</td>
