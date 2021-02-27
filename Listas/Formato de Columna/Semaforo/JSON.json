@@ -1,0 +1,21 @@
+{
+    "elmType": "div",
+    "style": {
+        "display": "flex",
+        "justify-content": "center"
+    },
+    "children": [
+        {
+            "elmType": "div",
+            "style": {
+                "background-color": "=if([$Estado] == 'Pendiente', 'rgba(200,200,0,.25)' , if([$Estado] == 'Aprobado', 'rgba(50,200,50,0.25)', 'rgba(200,50,50,0.25)'))",
+                "border-color": "=if([$Estado] == 'Pendiente', 'rgba(200,200,0,.75)' , if([$Estado] == 'Aprobado', 'rgba(50,200,50,0.75)', 'rgba(200,50,50,0.75)'))",
+                "border-style": "solid",
+                "border-width": "1px",
+                "border-radius": "50%",
+                "height": "20px",
+                "width": "20px"
+            }
+        }
+    ]
+}

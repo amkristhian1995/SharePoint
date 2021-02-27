@@ -1,5 +1,5 @@
 <h1>Formato de Columna</h1>
-<h2>Porcentaje</h2>
+<h2>Semaforo</h2>
 
 <img src="img.png" />
 
@@ -16,12 +16,12 @@
             <td>Linea de texto</td>
         </tr>
         <tr>
-            <td>Descripcion</td>
-            <td>Varias de texto</td>
+            <td>Estado</td>
+            <td>Elección</td>
         </tr>
         <tr>
-            <td>Porcentaje</td>
-            <td>Número</td>
+            <td>Simbolo</td>
+            <td>Linea de texto</td>
         </tr>
     </body>
 </table>
