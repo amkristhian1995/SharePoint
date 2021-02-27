@@ -1,5 +1,5 @@
 <h1>Formato de Vista</h1>
-<h2>Linea de Tiempo Horizontal</h2>
+<h2>Linea de Tiempo Vertical</h2>
 
 <img src="img.png" />
 
