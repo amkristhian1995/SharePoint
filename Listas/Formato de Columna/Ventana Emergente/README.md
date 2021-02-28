@@ -1,5 +1,5 @@
 <h1>Formato de Columna</h1>
-<h2>Porcentaje</h2>
+<h2>Venatana Emergente</h2>
 
 <img src="img.png" />
 
@@ -17,12 +17,20 @@
             <td>Una linea de texto</td>
         </tr>
         <tr>
-            <td>Descripcion</td>
-            <td>Varias lineas de texto</td>
+            <td>Estado</td>
+            <td>Elección</td>
         </tr>
         <tr>
-            <td>Porcentaje</td>
-            <td>Número</td>
+            <td>FechaEnvio</td>
+            <td>Fecha</td>
+        </tr>
+        <tr>
+            <td>FechaRecepcion</td>
+            <td>Fecha</td>
+        </tr>
+        <tr>
+            <td>FechaEntrega</td>
+            <td>Fecha</td>
         </tr>
     </body>
 </table>

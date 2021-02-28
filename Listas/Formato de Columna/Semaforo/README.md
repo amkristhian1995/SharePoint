@@ -3,6 +3,7 @@
 
 <img src="img.png" />
 
+<h3>Columnas Requeridas</h3>
 <table>
     <thead>
         <tr>
