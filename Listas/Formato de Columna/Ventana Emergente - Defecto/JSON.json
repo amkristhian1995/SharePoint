@@ -1,0 +1,25 @@
+{
+    "elmType": "div",
+    "style": {
+        "padding": "2.5px"
+    },
+    "children": [
+        {
+            "elmType": "img",
+            "style": {
+                "width": "30px",
+                "height": "30px",
+                "border-radius": "50%",
+                "margin-right": "10px"
+            },
+            "attributes": {
+                "src": "='/_layouts/15/userphoto.aspx?size=S&accountname='+[$Editor.email]"
+            }
+        },
+        {
+            "elmType": "span",
+            "txtContent": "[$Editor.title]"
+        }
+    ],
+    "defaultHoverField": "[$Title]"
+}

@@ -17,20 +17,12 @@
             <td>Una linea de texto</td>
         </tr>
         <tr>
-            <td>Estado</td>
-            <td>Elección</td>
+            <td>Creado Por</td>
+            <td>Persona</td>
         </tr>
         <tr>
-            <td>FechaEnvio</td>
-            <td>Fecha</td>
-        </tr>
-        <tr>
-            <td>FechaRecepcion</td>
-            <td>Fecha</td>
-        </tr>
-        <tr>
-            <td>FechaEntrega</td>
-            <td>Fecha</td>
+            <td>Modificado Por</td>
+            <td>Persona</td>
         </tr>
     </body>
 </table>

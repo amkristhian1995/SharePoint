@@ -1,0 +1,251 @@
+{
+    "elmType": "div",
+    "style": {
+        "font-size": "12px"
+    },
+    "txtContent": "[$Title]",
+    "customCardProps": {
+        "formatter": {
+            "elmType": "div",
+            "children": [
+                {
+                    "elmType": "div",
+                    "children": [
+                        {
+                            "elmType": "div",
+                            "style": {
+                                "padding": "15px 45px 15px 15px"
+                            },
+                            "children": [
+                                {
+                                    "elmType": "div",
+                                    "children": [
+                                        {
+                                            "elmType": "div",
+                                            "style": {
+                                                "font-size": "18px",
+                                                "font-weight": "550",
+                                                "text-align": "center",
+                                                "margin-bottom": "10px"
+                                            },
+                                            "txtContent": "Detalle del seguimiento"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "elmType": "div",
+                                    "children": [
+                                        {
+                                            "elmType": "span",
+                                            "style": {
+                                                "font-size": "16px",
+                                                "font-weight": "600",
+                                                "padding-left": "15px"
+                                            },
+                                            "txtContent": " ",
+                                            "attributes": {
+                                                "iconName": "=if([$FechaEnvio] != "", 'StatusCircleCheckmark', 'CircleRing')",
+                                                "class": "='ms-fontColor-' + if([$FechaEnvio] != '','green','neutralSecondaryAlt')"
+                                            }
+                                        },
+                                        {
+                                            "elmType": "span",
+                                            "style": {
+                                                "font-size": "16px",
+                                                "font-weight": "600",
+                                                "margin-left": "-16px"
+                                            },
+                                            "txtContent": " ",
+                                            "attributes": {
+                                                "iconName": "CircleRing",
+                                                "class": "='ms-fontColor-' + if([$FechaEnvio] != '','green','neutralSecondaryAlt')"
+                                            }
+                                        },
+                                        {
+                                            "elmType": "span",
+                                            "style": {
+                                                "font-size": "=if([$FechaEnvio] != '', '16px', ''",
+                                                "font-weight": "=if([$FechaEnvio] != '', '600', ''",
+                                                "padding-left": "9px"
+                                            },
+                                            "txtContent": "Enviado",
+                                            "attributes": {
+                                                "class": "='ms-fontColor-' + if([$FechaEnvio] != '','green','neutralSecondaryAlt')"
+                                            }
+                                        },
+                                        {
+                                            "elmType": "div",
+                                            "style": {
+                                                "font-size": "10px",
+                                                "font-weight": "600",
+                                                "text-align": "center",
+                                                "border-left-style": "solid",
+                                                "border-left-color": "=if([$StatusCode] > 1,'green','neutralSecondaryAlt')",
+                                                "margin-left": "21px"
+                                            },
+                                            "attributes": {
+                                                "class": "='ms-fontColor-' + if([$FechaEnvio] != '', 'black', 'black')"
+                                            },
+                                            "txtContent": "[$FechaEnvio]"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "elmType": "div",
+                                    "children": [
+                                        {
+                                            "elmType": "span",
+                                            "style": {
+                                                "border-left-style": "solid",
+                                                "border-left-color": "='ms-borderColor-' + if([$StatusCode] > 1,'green','neutralSecondaryAlt')",
+                                                "margin-left": "21px"
+                                            },
+                                            "attributes": {
+                                                "class": "='ms-fontColor-' + if([$StatusCode] > 1,'green','neutralSecondaryAlt')"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "elmType": "div",
+                                    "children": [
+                                        {
+                                            "elmType": "span",
+                                            "style": {
+                                                "font-size": "16px",
+                                                "font-weight": "600",
+                                                "padding-left": "15px"
+                                            },
+                                            "txtContent": " ",
+                                            "attributes": {
+                                                "iconName": "=if([$StatusCode] > 1, 'StatusCircleCheckmark', 'CircleRing')",
+                                                "class": "='ms-fontColor-' + if([$StatusCode] > 1,'green','neutralSecondaryAlt')"
+                                            }
+                                        },
+                                        {
+                                            "elmType": "span",
+                                            "style": {
+                                                "font-size": "16px",
+                                                "font-weight": "600",
+                                                "margin-left": "-16px"
+                                            },
+                                            "txtContent": " ",
+                                            "attributes": {
+                                                "iconName": "CircleRing",
+                                                "class": "='ms-fontColor-' + if([$StatusCode] > 1,'green','neutralSecondaryAlt')"
+                                            }
+                                        },
+                                        {
+                                            "elmType": "span",
+                                            "style": {
+                                                "font-size": "=if([$StatusCode] > 1, '16px', ''",
+                                                "font-weight": "=if([$StatusCode] > 1, '600', ''",
+                                                "padding-left": "9px"
+                                            },
+                                            "txtContent": "Shipped",
+                                            "attributes": {
+                                                "class": "='ms-fontColor-' + if([$StatusCode] > 1,'green','neutralSecondaryAlt')"
+                                            }
+                                        },
+                                        {
+                                            "elmType": "div",
+                                            "style": {
+                                                "font-size": "10px",
+                                                "font-weight": "600",
+                                                "text-align": "center",
+                                                "border-left-style": "solid",
+                                                "border-left-color": "= if([$StatusCode] > 2,'green','neutralSecondaryAlt')",
+                                                "margin-left": "21px"
+                                            },
+                                            "attributes": {
+                                                "class": "='ms-fontColor-' + if([$StatusCode] > 1, 'black', 'black')"
+                                            },
+                                            "txtContent": "[$ShippedDate]"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "elmType": "div",
+                                    "children": [
+                                        {
+                                            "elmType": "span",
+                                            "style": {
+                                                "border-left-style": "solid",
+                                                "border-left-color": "='ms-borderColor-' + if([$StatusCode] > 2,'green','neutralSecondaryAlt')",
+                                                "margin-left": "21px"
+                                            },
+                                            "attributes": {
+                                                "class": "='ms-fontColor-' + if([$StatusCode] > 2,'green','neutralSecondaryAlt')"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "elmType": "div",
+                                    "children": [
+                                        {
+                                            "elmType": "span",
+                                            "style": {
+                                                "font-size": "16px",
+                                                "font-weight": "600",
+                                                "padding-left": "15px"
+                                            },
+                                            "txtContent": " ",
+                                            "attributes": {
+                                                "iconName": "=if([$StatusCode] > 2, 'StatusCircleCheckmark', 'CircleRing')",
+                                                "class": "='ms-fontColor-' + if([$StatusCode] > 2,'green','neutralSecondaryAlt')"
+                                            }
+                                        },
+                                        {
+                                            "elmType": "span",
+                                            "style": {
+                                                "font-size": "16px",
+                                                "font-weight": "600",
+                                                "margin-left": "-16px"
+                                            },
+                                            "txtContent": " ",
+                                            "attributes": {
+                                                "iconName": "CircleRing",
+                                                "class": "='ms-fontColor-' + if([$StatusCode] > 2,'green','neutralSecondaryAlt')"
+                                            }
+                                        },
+                                        {
+                                            "elmType": "span",
+                                            "style": {
+                                                "font-size": "=if([$StatusCode] > 2, '16px', ''",
+                                                "font-weight": "=if([$StatusCode] > 2, '600', ''",
+                                                "padding-left": "9px"
+                                            },
+                                            "txtContent": "In transit",
+                                            "attributes": {
+                                                "class": "='ms-fontColor-' + if([$StatusCode] > 2,'green','neutralSecondaryAlt')"
+                                            }
+                                        },
+                                        {
+                                            "elmType": "div",
+                                            "style": {
+                                                "font-size": "10px",
+                                                "font-weight": "600",
+                                                "text-align": "center",
+                                                "border-left-style": "solid",
+                                                "border-left-color": "=if([$StatusCode] > 3,'green','neutralSecondaryAlt')",
+                                                "margin-left": "21px"
+                                            },
+                                            "attributes": {
+                                                "class": "='ms-fontColor-' + if([$StatusCode] > 2, 'black', 'black')"
+                                            },
+                                            "txtContent": "[$InTransitStartDate]"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "openOnEvent": "hover",
+        "directionalHint": "bottomCenter",
+        "isBeakVisible": true
+    }
+}

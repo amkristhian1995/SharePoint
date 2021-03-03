@@ -13,7 +13,7 @@
             "elmType": "div",
             "style": {
                 "align-items": "center",
-                "border": "='1px solid '+if([$Porcentaje] <= 40 , 'rgba(200, 50, 50, .75)', if([$Porcentaje] <= 80, 'rgba(200, 200, 0, .75)', 'rgba(50, 200, 50, .75)'))",
+                "border": "='2px solid '+if([$Porcentaje] <= 40 , 'rgba(231,76,60,1)', if([$Porcentaje] <= 80, 'rgba(241,196,15,1)', 'rgba(46,204,113,1)'))",
                 "border-radius": "10px",
                 "justify-content": "center",
                 "display": "flex",
@@ -26,7 +26,7 @@
                 {
                     "elmType": "span",
                     "style": {
-                        "background-color": "=if([$Porcentaje] <= 40 , 'rgba(200, 50, 50, .25)', if([$Porcentaje] <= 80, 'rgba(200, 200, 0, .25)', 'rgba(50, 200, 50, .25)'))",
+                        "background-color": "=if([$Porcentaje] <= 40 , 'rgba(231,76,60,.5)', if([$Porcentaje] <= 80, 'rgba(241,196,15,.5)', 'rgba(46,204,113,.5)'))",
                         "left": "0",
                         "position": "absolute",
                         "height": "20px",
